@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omah</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/tailwind.js"></script>
+</head>
+<body>
+    <!-- ==== Navbar Start ===== -->
+    <nav id="nav" class="bg-[#EEEDDE] w-full py-[25px] fixed left-0 top-0 z-[1000]">
+        <div class="max-w-[1166px] mx-auto">
+            <div class="flex justify-between items-center">
+                <div class="logo">
+                    <a href="#"><img src="images/logo.png" alt=""></a>
+                </div>
+                <div class="navBar">
+                    <ul class="flex gap-x-[100px]">
+                        <li><a href="#" class="capitalize text-[#203239] font-normal leading-6 transition-all transition-duration: 300ms relative after:absolute after:content-[''] hover:text-[#af63e7] after:bg-[#F6762E] after:w-[30px] after:h-[3px] after:left-[50%] after:-bottom-[5px] after:-translate-x-[50%] after:rounded-[25px] after:opacity-0 hover:after:opacity-100 after:transition-all after:transition-duration:300ms">home</a></li>
+                        <li><a href="#" class="capitalize text-[#203239] font-normal leading-6 transition-all transition-duration: 300ms relative after:absolute after:content-[''] hover:text-[#af63e7] after:bg-[#F6762E] after:w-[30px] after:h-[3px] after:left-[50%] after:-bottom-[5px] after:-translate-x-[50%] after:rounded-[25px] after:opacity-0 hover:after:opacity-100 after:transition-all after:transition-duration:300ms">about</a></li>
+                        <li><a href="#" class="capitalize text-[#203239] font-normal leading-6 transition-all transition-duration: 300ms relative after:absolute after:content-[''] hover:text-[#af63e7] after:bg-[#F6762E] after:w-[30px] after:h-[3px] after:left-[50%] after:-bottom-[5px] after:-translate-x-[50%] after:rounded-[25px] after:opacity-0 hover:after:opacity-100 after:transition-all after:transition-duration:300ms">Properties <i class="fa-solid fa-angle-down" style="color: #203239;"></i></a></li>
+                        <li><a href="#" class="capitalize text-[#203239] font-normal leading-6 transition-all transition-duration: 300ms relative after:absolute after:content-[''] hover:text-[#af63e7] after:bg-[#F6762E] after:w-[30px] after:h-[3px] after:left-[50%] after:-bottom-[5px] after:-translate-x-[50%] after:rounded-[25px] after:opacity-0 hover:after:opacity-100 after:transition-all after:transition-duration:300ms">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ==== Navbar End ===== -->
+    <!-- ==== Banner Start ===== -->
+    <section id="banner" class="bg-[#EEEDDE] pt-[190px] pb-[60px]">
+        <div class="container max-w-[1166px] mx-auto">
+            <div class="bannerWrapper flex justify-between">
+                <div class="bannerLeft">
+                    <h2 class="bannerTitle text-[56px] font-semibold leading-[84px]">Temukan Hunian Keluarga <br> Sesuai Keinginanmu</h2>
+                    <p class="commonPara text-base font-light leading-[30px] text-[#203239] opacity-50 pr-[50px] w-[544px] mt-6 mb-14">
+                        Menyediakan hunian bagi keluarga anda dengan varian pilihan dan lokasi yang strategis di kota anda dengan cara yang lebih mudah.
+                    </p>
+                    <div class="w-[675px] bg-white h-[70px] p-[25px] rounded-[15px] flex item-center gap-[15px] relative">
+                        <i class="fa-solid fa-location-dot text-[20px]" style="color: #203239;"></i>
+                        <input type="text" placeholder="Search location, properties, residental group" class="w-[500px] outline-transparent text-base font-light leading-[30px] text-[#203239] opacity-50">
+                        <a href="" class="bannerSearch text-[16px] font-semibold font-light text-[#203239] px-[30px] py-[10px] bg-[#203239] text-[#fff] rounded-[10px] absolute top-[50%] right-[10px] -translate-y-2/4">Search</a>
+                    </div>
+                    <div class="flex justify-between mt-[56px]">
+                        <div class="w-[125px]">
+                            <h2 class="text-[56px] font-semibold text-[##203239]">200<strong class="text-[#FF7527]">+</strong></h2>
+                            <p class="commonPara  text-base font-light text-[#203239] opacity-50">
+                                Residental grup telah bergabung
+                            </p>
+                        </div>
+                        <div class="w-[125px]">
+                            <h2 class="text-[56px] font-semibold text-[##203239]">10<strong class="text-[#FF7527]">+</strong></h2>
+                            <p class="commonPara  text-base font-light text-[#203239] opacity-50">
+                                Sudah berpengalaman
+                            </p>
+                        </div>
+                        <div class="w-[125px]">
+                            <h2 class="text-[56px] font-semibold text-[##203239]">999<strong class="text-[#FF7527]">+</strong></h2>
+                            <p class="commonPara  text-base font-light text-[#203239] opacity-50">
+                                Properti tersedia di berbagai Kota
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bannerRight">
+                    <img src="images/banner.png" alt="" class="bannerImage">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==== Banner End ===== -->
+    <!-- ==== Purchase Start ==== -->
+    <section id="purchase" class="pt-[100px]">
+        <div class="container max-w-[1166px] mx-auto">
+            <h2 class="w-[533px] text-[36px] font-semibold leading-[54px] mb-[64px]">Tahapan Pembelian Properti yang Mudah dan Cepat</h2>
+            <div class="cardWrapper flex justify-between item-center mb-[200px]">
+                <div class="card w-[300px] h-auto p-[33px] border border-transparent duration-[400ms] hover:border-[#EEEDDE] rounded-[10px] ">
+                    <div class="flex justify-between">
+                        <h3 class="text-base font-medium leading-6 text-[#203239] relative before:content-[''] before:w-[8px] before:h-[30px] before:bg-[#FF7527] before:absolute before:-left-[33px] before:top-0 before:rounded-[15px]">Pilih Properti</h3>
+                        <h3 class="text-base font-medium leading-6 text-[#FF7527]">01</h3>
+                    </div>
+                    <p class="commonPara text-base font-light leading-[30px] text-[#203239] opacity-50 text-justify mt-8 mb-12">
+                        Cari properti yang diinginkan sesuai dengan kriteria anda dan keluarga. Cara memilih properti yang bijak dapat anda baca lebih lanjut di sini
+                    </p>
+                    <span class="text-base font-medium text-[#203239] py-[5px] px-[10px] relative before:content-[''] before:w-[20%] before:h-full before:bg-[#D6D5C7] before:opacity-60 before:absolute before:-left-0 before:top-0 hover:before:w-full cursor-pointer before:transition-all before:duration-[400ms]">Baca lebih Lanjut <i class="fa-solid fa-arrow-right ms-2" style="color: #203239;"></i></span>
+                </div>
+                <div class="card w-[300px] h-auto p-[33px] border border-transparent duration-[400ms] hover:border-[#EEEDDE] rounded-[10px] ">
+                    <div class="flex justify-between">
+                        <h3 class="text-base font-medium leading-6 text-[#203239] relative before:content-[''] before:w-[8px] before:h-[30px] before:bg-[#FF7527] before:absolute before:-left-[33px] before:top-0 before:rounded-[15px]">Proses Booking</h3>
+                        <h3 class="text-base font-medium leading-6 text-[#FF7527]">02</h3>
+                    </div>
+                    <p class="commonPara text-base font-light leading-[30px] text-[#203239] opacity-50 text-justify mt-8 mb-12">
+                        Cari properti yang diinginkan sesuai dengan kriteria anda dan keluarga. Cara memilih properti yang bijak dapat anda baca lebih lanjut di sini
+                    </p>
+                    <span class="text-base font-medium text-[#203239] py-[5px] px-[10px] relative before:content-[''] before:w-[20%] before:h-full before:bg-[#D6D5C7] before:opacity-60 before:absolute before:-left-0 before:top-0 hover:before:w-full cursor-pointer before:transition-all before:duration-[400ms]">Baca lebih Lanjut <i class="fa-solid fa-arrow-right ms-2" style="color: #203239;"></i></span>
+                </div>
+                <div class="card w-[300px] h-auto p-[33px] border border-transparent duration-[400ms] hover:border-[#EEEDDE] rounded-[10px] ">
+                    <div class="flex justify-between">
+                        <h3 class="text-base font-medium leading-6 text-[#203239] relative before:content-[''] before:w-[8px] before:h-[30px] before:bg-[#FF7527] before:absolute before:-left-[33px] before:top-0 before:rounded-[15px]">KPR dan Sertifikasi</h3>
+                        <h3 class="text-base font-medium leading-6 text-[#FF7527]">03</h3>
+                    </div>
+                    <p class="commonPara text-base font-light leading-[30px] text-[#203239] opacity-50 text-justify mt-8 mb-12">
+                        Cari properti yang diinginkan sesuai dengan kriteria anda dan keluarga. Cara memilih properti yang bijak dapat anda baca lebih lanjut di sini
+                    </p>
+                    <span class="text-base font-medium text-[#203239] py-[5px] px-[10px] relative before:content-[''] before:w-[20%] before:h-full before:bg-[#D6D5C7] before:opacity-60 before:absolute before:-left-0 before:top-0 hover:before:w-full cursor-pointer before:transition-all before:duration-[400ms]">Baca lebih Lanjut <i class="fa-solid fa-arrow-right ms-2" style="color: #203239;"></i></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==== Purchase End ==== -->
+    <!-- ==== Favorit Start ==== -->
+    <section id="favorit" class="bg-[#EEEDDE] pt-[68px] pb-[164px]">
+        <div class="container max-w-[1166px] mx-auto">
+            <div class="favoritWrapper flex justify-between gap-x-[258px]">
+                <div class="fLeft">
+                    <span class="fSubTitle text-[#FF7527] text-[16px] font-medium leading-6 mb-2">Pilihan konsumen</span>
+                    <h2 class="fTitle text-[#203239] text-4xl font-semibold leading-[54px]">Residen Favorit</h2>
+                    <div class="fImageWrapper mt-16 relative">
+                        <div class="fImageBox w-[330px] h-[455px] overflow-hidden rounded-[8.25px] ">
+                            <img src="images/f1.png" alt="Image Not Found" class="w-full h-auto">
+                        </div>
+                        <div class="fImageBox w-[358px] h-[490px] overflow-hidden rounded-[11.56px] absolute left-[167px] top-[60px]">
+                            <img src="images/f2.png" alt="Image Not Found" class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+                <div class="fRight">
+                    <h2 class="fTitle w-[507px] text-[#203239] text-4xl font-semibold leading-[54px] mt-[150px]">Bangunan yang dirancang oleh Aristektur Handal</h2>
+                    <p class="w-[570px] text-[#203239] text-base font-light leading-[30px] mt-6">
+                        Tanpa diragukan, properti yang disediakan dalam webiste kami merupakan hasil kerjasama secara profesional dengan para Arsitektur ternama dan Developer yang terpercaya.
+                    </p>
+                    <div class="flex gap-x-[48px] mt-12">
+                        <a href="#" class="text-[#203239] text-base font-semibold leading-[30px] border border-[#203239] inline-block rounded-[10px] px-[41px] py-[13px] transition-all duration-[300ms] hover:bg-[#203239] hover:text-[#ffffff]"><i class="fa-solid fa-phone mr-[10px]"></i> Hubungi Kami</a>
+                        <a href="#" class="text-[#203239] text-base font-semibold leading-[30px] border border-[#203239] inline-block rounded-[10px] px-[41px] py-[13px] transition-all duration-[300ms] hover:bg-[#203239] hover:text-[#ffffff]">Explore lebih banyak</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==== Favorit End ==== -->
+    <!-- ==== Residen Start ==== -->
+    <section id="residen" class="my-[68px]">
+        <div class="container max-w-[1166px] mx-auto">
+            <span class="fSubTitle text-[#FF7527] text-[16px] font-medium leading-6 mb-2">Pilihan Auditor</span>
+            <h2 class="fTitle text-[#203239] text-4xl font-semibold leading-[54px]">Residen Berbagai Kota</h2>
+            <div class="residenCardWrapper flex justify-between">
+                <div class="residenCard">
+                    <div class="residenCardImgBox w-[357px] h-[454px] bg-gray-200 rounded-[10px] overflow-hidden mt-[64px]">
+                        <img src="images/r1.png" alt="Image Not Found" class="w-full">
+                    </div>
+                    <h3 class="text-[#203239] text-[24px] font-semibold leading-[54px] mt-4">Magnolia Surabaya</h3>
+                    <p class="w-[90%] text-[#203239] text-base font-light leading-[30px] mt-2">
+                        Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec. Jatiuwung, Kota Tangerang, Banten 15136
+                    </p>
+                </div>
+                <div class="residenCard">
+                    <div class="residenCardImgBox w-[357px] h-[454px] bg-gray-200 rounded-[10px] overflow-hidden mt-[64px]">
+                        <img src="images/r2.png" alt="Image Not Found" class="w-full">
+                    </div>
+                    <h3 class="text-[#203239] text-[24px] font-semibold leading-[54px] mt-4">Pinang Residences</h3>
+                    <p class="w-[90%] text-[#203239] text-base font-light leading-[30px] mt-2">
+                        Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec. Jatiuwung, Kota Tangerang, Banten 15136
+                    </p>
+                </div>
+                <div class="residenCard">
+                    <div class="residenCardImgBox w-[357px] h-[454px] bg-gray-200 rounded-[10px] overflow-hidden mt-[64px]">
+                        <img src="images/r3.png" alt="Image Not Found" class="w-full">
+                    </div>
+                    <h3 class="text-[#203239] text-[24px] font-semibold leading-[54px] mt-4">South Grove</h3>
+                    <p class="w-[90%] text-[#203239] text-base font-light leading-[30px] mt-2">
+                        Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec. Jatiuwung, Kota Tangerang, Banten 15136
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ==== Residen End==== -->
+    <!-- === Contact Start === -->
+    <section id="Contact" class="bg-[#EEEDDE] py-12">
+        <div class="container max-w-[1166px] mx-auto">
+            <div class="flex justify-between">
+                <div class="contactLeft w-2/4">
+                    <h2 class="fTitle text-[#203239] text-4xl font-semibold leading-[54px] mb-[63px]">Hubungi Kami</h2>
+                    <div class="contactCardWrapper flex justify-start gap-12">
+                        <div class="contactCard border border-[#ff762780] rounded-[10px] p-6">
+                            <div class="flex gap-4 items-center mb-[24px]">
+                                <i class="fa-solid fa-phone text-[30px]" style="color: #22324e;"></i>
+                                <h3 class="text-[16px] font-medium text-[#203239]">Call <br>+6281232936733</h3>
+                            </div>
+                            <a href="#" class="text-[#203239] text-base font-semibold leading-[30px] bg-[#ff752733] inline-block rounded-[10px] px-[65px] py-[13px] transition-all duration-[300ms] hover:bg-[#ff7527cc] hover:text-[#ffffff] capitalize">call now</a>
+                        </div>
+                        <div class="contactCard border border-[#ff762780] rounded-[10px] p-6">
+                            <div class="flex gap-4 items-center mb-[24px]">
+                                <i class="fa-solid fa-envelope text-[40px]"></i>
+                                <h3 class="text-[16px] font-medium text-[#203239]">Email <br> omahindev@gmail.com</h3>
+                            </div>
+                            <a href="#" class="text-[#203239] text-base font-semibold leading-[30px] bg-[#ff752733] inline-block rounded-[10px] px-[65px] py-[13px] transition-all duration-[300ms] hover:bg-[#ff7527cc] hover:text-[#ffffff] capitalize">email now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactRight">
+                    <h2 class="fTitle text-[#203239] text-4xl font-semibold leading-[54px] mb-[63px]">Penghargaan</h2>
+                    <div class=" flex items-center gap-12">
+                        <div class="contactImgBox w-[156px] h-[104px] overflow-hidden">
+                            <img src="images/contact1.png" alt="Image Not Found" class="contactImg w-full">
+                        </div>
+                        <div class="contactImgBox w-[211px] h-[152px] overflow-hidden">
+                            <img src="images/contact2.png" alt="Image Not Found" class="contactImg w-full">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === Contact End === -->
+    <!-- === Footer Start=== -->
+    <footer id="footer" class="footer bg-[#203239] py-4">
+        <div class="container max-w-[1166px] mx-auto">
+            <div class="flex justify-between items-center">
+                <div class="logo">
+                    <a href="#"><img src="images/f_logo.png" alt="Logo"></a> 
+                </div>
+                <div class="socialMedia flex justify-start items-end gap-[66px]">
+                    <a href="https://www.facebook.com" target="_blank" class="text-[#ffffff] text-2xl transition-all duration-300 hover:text-[#ff7527]"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank" class="text-[#ffffff] text-2xl transition-all duration-300 hover:text-[##ff7527]"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com" target="_blank" class="text-[#ffffff] text-2xl transition-all duration-300 hover:text-[##ff7527]"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank" class="text-[#ffffff] text-2xl transition-all duration-300 hover:text-[##ff7527]"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- === Footer End=== -->
+    
+      <script src="https://kit.fontawesome.com/40efee845b.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
